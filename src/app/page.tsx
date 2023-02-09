@@ -1,3 +1,9 @@
+import { Sidebar } from "@/components/Sidebar";
+
 export default function Home() {
-  return <h1 className="text-3xl font-bold underline">Hello World!!</h1>;
+  return (
+    <main className="flex min-h-screen max-w-7xl mx-auto">
+      <Sidebar />
+    </main>
+  );
 }
