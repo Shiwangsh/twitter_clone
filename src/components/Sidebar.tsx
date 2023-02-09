@@ -13,7 +13,7 @@ import {
 } from "@heroicons/react/outline";
 import user_img from "../../public/images/user_img.jpg";
 
-export const Sidebar = () => {
+export default function Sidebar() {
   return (
     <div className="hidden sm:flex flex-col p-2 xl:items-start fixed h-full">
       {/* Twitter logo */}
@@ -56,4 +56,4 @@ export const Sidebar = () => {
       </div>
     </div>
   );
-};
+}
