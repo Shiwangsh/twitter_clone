@@ -1,7 +1,6 @@
 import Feed from "@/components/Feed";
 import Sidebar from "@/components/Sidebar";
 import Widgets from "@/components/Widgets";
-
 export default async function Home() {
   const newsArticle = await getNews();
   const randomUsers = await getRandomUsers();
