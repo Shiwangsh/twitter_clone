@@ -17,6 +17,7 @@
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
     "firebase": "^9.8.1",
+    "framer-motion": "^9.0.2",
     "init": "^0.1.2",
     "moment-timezone": "^0.5.40",
     "next": "13.1.6",
