@@ -1,5 +1,7 @@
+"use client";
 import "./global.css";
 import ProvidersWrapper from "./ProvidersWrapper";
+import { RecoilRoot } from "recoil";
 
 export default function RootLayout({
   children,
@@ -14,7 +16,9 @@ export default function RootLayout({
       */}
       <head />
       <body>
-        <ProvidersWrapper>{children}</ProvidersWrapper>
+        <ProvidersWrapper>
+          <RecoilRoot>{children}</RecoilRoot>
+        </ProvidersWrapper>
       </body>
     </html>
   );

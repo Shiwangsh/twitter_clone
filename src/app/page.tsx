@@ -1,6 +1,7 @@
 import Feed from "@/components/Feed";
 import Sidebar from "@/components/Sidebar";
 import Widgets from "@/components/Widgets";
+import CommentModal from "@/components/CommentModal";
 export default async function Home() {
   const newsArticle = await getNews();
   const randomUsers = await getRandomUsers();
@@ -12,6 +13,7 @@ export default async function Home() {
         newsArticle={newsArticle.articles}
         randomUsers={randomUsers.results}
       />
+      <CommentModal />
     </main>
   );
 }
